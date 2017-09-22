@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	/*section{
+		margin: 50px 200px;
+	}*/
+	.container{
+		display: flex;
+		flex-flow:row wrap;
+		width:80%;
+	}
+	a{
+		text-decoration: none;
+	}
+	.figure-item{
+		align-content: center;
+		flex: 1 1 100px;
+		justify-content: center;
+	}
+	.figure-item img{
+		width: 100px;
+	}
+	.container-item{
+		background-color: grey;
+		border-radius: 10px;
+		margin: 20px;
+		flex: 1 1 100px;
+		/*flex item 最好不要设置width,用flex-basis 或 min-width*/
+		min-width: 100px;
+		padding: 20px;
+	}
+	.container-item ul, .container-item li{
+		list-style-type: none;
+	}
+	</style>
+</head>
+<body>
+<section>
+	<h1><a href="">关于我<a></h1>
+	<section class="container">
+		<section class="figure-item">
+			<figure>
+				<img src="my.jpg" alt="my figure">
+			</fihure>
+		</section>
+		<section class="container-item">
+			<h5>联系方式</h5>
+			<ul>
+			   <li>姓名：林小燕</li>
+			   <li>邮箱：983806848@qq.com</li>
+			   <li>城市：广州</li>
+			   <li>电话：13660048642</li>
+			</ul>
+		</section>
+		<section class="container-item">
+			<h5>掌握技能</h5>
+			<ul>
+			   <li>英文：大学四级</li>
+			   <li>CSS：熟练</li>
+			   <li>HTML：熟练</li>
+			   <li>JS：一般</li>
+			</ul>
+		</section>
+		<section  class="container-item">
+			<h5>实践经历</h5>
+			<ul>
+			   <li>英文：大学四级</li>
+			   <li>CSS：熟练</li>
+			   <li>HTML：熟练</li>
+			   <li>JS：一般</li>
+			</ul>
+		</section>
+	</section>
+
+</section>
+	
+</body>
+</html>
